@@ -28,7 +28,7 @@
           "doctor": "Dr. Smith",
           "department": "General Medicine",
           "observations": "Mild fever and fatigue",
-          "price": 75.00,
+          "price": 75.0,
           "paymentType": "Credit Card",
           "status": "Completed"
         }
@@ -74,7 +74,7 @@
           "doctor": "Dr. Johnson",
           "department": "Orthopedics",
           "observations": "Lumbar strain, prescribed physical therapy",
-          "price": 120.00,
+          "price": 120.0,
           "paymentType": "Insurance",
           "status": "Completed"
         }
@@ -110,3 +110,10 @@
       "dateOfBirth": "1978-12-10",
       "reasonForConsultation": "Annual physical",
       "healthInsurance": "BlueCross Shield",
+      "medicalCertificates": [],
+      "consultations": [],
+      "prescriptions": [],
+      "analyses": []
+    }
+  ]
+}
