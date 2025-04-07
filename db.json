@@ -20,6 +20,27 @@
           "date": "2025-04-01",
           "description": "Medical leave for flu",
           "recipient": "HR Department"
+        },
+        {
+          "id": "MC002",
+          "type": "Fitness Certificate",
+          "date": "2025-03-15",
+          "description": "Cleared for physical activities",
+          "recipient": "Sports Club"
+        },
+        {
+          "id": "MC003",
+          "type": "Travel Medical Clearance",
+          "date": "2025-02-20",
+          "description": "Fit for international travel",
+          "recipient": "Immigration Office"
+        },
+        {
+          "id": "MC004",
+          "type": "Return to Work",
+          "date": "2025-01-10",
+          "description": "Cleared to return to work after surgery recovery",
+          "recipient": "Employer"
         }
       ],
       "consultations": [
@@ -33,6 +54,28 @@
           "price": 75.00,
           "paymentType": "Credit Card",
           "status": "Completed"
+        },
+        {
+          "id": "C002",
+          "dateTime": "2025-03-15T14:00:00",
+          "patient": "P001",
+          "doctor": "Dr. Johnson",
+          "department": "Cardiology",
+          "observations": "Routine heart checkup, all parameters normal",
+          "price": 120.00,
+          "paymentType": "Insurance",
+          "status": "Completed"
+        },
+        {
+          "id": "C003",
+          "dateTime": "2025-04-20T09:15:00",
+          "patient": "P001",
+          "doctor": "Dr. Williams",
+          "department": "Orthopedics",
+          "observations": "Knee pain assessment, recommended physical therapy",
+          "price": 95.00,
+          "paymentType": "Cash",
+          "status": "Scheduled"
         }
       ],
       "prescriptions": [
@@ -40,11 +83,42 @@
           "id": "PR001",
           "reference": "RX123456",
           "date": "2025-04-02",
-          "patient": "P001"
+          "patient": "P001",
+          "medications": [
+            {
+              "name": "Paracetamol",
+              "dosage": "500mg",
+              "frequency": "Every 6 hours",
+              "duration": "5 days"
+            }
+          ],
+          "doctor": "Dr. Smith"
+        },
+        {
+          "id": "PR002",
+          "reference": "RX234567",
+          "date": "2025-03-15",
+          "patient": "P001",
+          "medications": [
+            {
+              "name": "Atorvastatin",
+              "dosage": "10mg",
+              "frequency": "Once daily",
+              "duration": "30 days"
+            },
+            {
+              "name": "Aspirin",
+              "dosage": "81mg",
+              "frequency": "Once daily",
+              "duration": "30 days"
+            }
+          ],
+          "doctor": "Dr. Johnson"
         }
       ],
       "analyses": [
         {
+          "id": "A001",
           "date": "2025-04-02",
           "patient": "P001",
           "requestedTests": [
@@ -52,7 +126,38 @@
             "COVID-19 PCR"
           ],
           "type": "Laboratory",
-          "status": "Pending"
+          "status": "Pending",
+          "requestingDoctor": "Dr. Smith"
+        },
+        {
+          "id": "A002",
+          "date": "2025-03-15",
+          "patient": "P001",
+          "requestedTests": [
+            "Echocardiogram",
+            "Electrocardiogram (ECG)",
+            "Lipid Profile"
+          ],
+          "type": "Cardiology",
+          "status": "Completed",
+          "requestingDoctor": "Dr. Johnson",
+          "results": {
+            "Echocardiogram": "Normal heart function, ejection fraction 65%",
+            "Electrocardiogram": "Normal sinus rhythm",
+            "Lipid Profile": "Total cholesterol: 190mg/dL, LDL: 110mg/dL, HDL: 55mg/dL, Triglycerides: 125mg/dL"
+          }
+        },
+        {
+          "id": "A003",
+          "date": "2025-04-20",
+          "patient": "P001",
+          "requestedTests": [
+            "Knee X-ray",
+            "MRI Right Knee"
+          ],
+          "type": "Radiology",
+          "status": "Scheduled",
+          "requestingDoctor": "Dr. Williams"
         }
       ]
     }
