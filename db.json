@@ -19,6 +19,27 @@
         "date": "2025-04-01",
         "description": "Medical leave for flu",
         "recipient": "HR Department"
+      },
+      {
+        "id": "MC002",
+        "type": "Fitness Certificate",
+        "date": "2025-04-05",
+        "description": "Certified fit for employment",
+        "recipient": "Company XYZ"
+      },
+      {
+        "id": "MC003",
+        "type": "Medical Clearance",
+        "date": "2025-04-06",
+        "description": "Cleared for surgery",
+        "recipient": "Surgery Department"
+      },
+      {
+        "id": "MC004",
+        "type": "Vaccination Record",
+        "date": "2025-04-07",
+        "description": "COVID-19 vaccination documented",
+        "recipient": "Health Authority"
       }
     ],
     "consultations": [
@@ -39,19 +60,47 @@
         "id": "PR001",
         "reference": "RX123456",
         "date": "2025-04-02",
-        "patient": "P001"
+        "patient": "P001",
+        "medications": ["Paracetamol 500mg", "Vitamin C 1000mg"]
+      },
+      {
+        "id": "PR002",
+        "reference": "RX123457",
+        "date": "2025-04-03",
+        "patient": "P001",
+        "medications": ["Ibuprofen 200mg"]
+      },
+      {
+        "id": "PR003",
+        "reference": "RX123458",
+        "date": "2025-04-04",
+        "patient": "P001",
+        "medications": ["Antihistamine", "Cough Syrup"]
+      },
+      {
+        "id": "PR004",
+        "reference": "RX123459",
+        "date": "2025-04-05",
+        "patient": "P001",
+        "medications": ["Amoxicillin 500mg"]
       }
     ],
     "analyses": [
       {
+        "id": "AN001",
         "date": "2025-04-02",
         "patient": "P001",
-        "requestedTests": [
-          "Complete Blood Count",
-          "COVID-19 PCR"
-        ],
+        "requestedTests": ["Complete Blood Count", "COVID-19 PCR"],
         "type": "Laboratory",
         "status": "Pending"
+      },
+      {
+        "id": "AN002",
+        "date": "2025-04-03",
+        "patient": "P001",
+        "requestedTests": ["Chest X-Ray"],
+        "type": "Radiology",
+        "status": "Completed"
       }
     ]
   }
