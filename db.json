@@ -19,27 +19,6 @@
         "date": "2025-04-01",
         "description": "Medical leave for flu",
         "recipient": "HR Department"
-      },
-      {
-        "id": "MC002",
-        "type": "Fitness Certificate",
-        "date": "2025-03-20",
-        "description": "Fit to participate in marathon",
-        "recipient": "Sports Committee"
-      },
-      {
-        "id": "MC003",
-        "type": "Sick Leave",
-        "date": "2025-02-10",
-        "description": "Medical leave for surgery recovery",
-        "recipient": "HR Department"
-      },
-      {
-        "id": "MC004",
-        "type": "Medical Clearance",
-        "date": "2025-01-15",
-        "description": "Cleared for international travel",
-        "recipient": "Travel Agency"
       }
     ],
     "consultations": [
@@ -61,30 +40,6 @@
         "reference": "RX123456",
         "date": "2025-04-02",
         "patient": "P001"
-      },
-      {
-        "id": "PR002",
-        "reference": "RX123457",
-        "date": "2025-03-25",
-        "patient": "P001"
-      },
-      {
-        "id": "PR003",
-        "reference": "RX123458",
-        "date": "2025-02-15",
-        "patient": "P001"
-      },
-      {
-        "id": "PR004",
-        "reference": "RX123459",
-        "date": "2025-01-10",
-        "patient": "P001"
-      },
-      {
-        "id": "PR005",
-        "reference": "RX123460",
-        "date": "2024-12-05",
-        "patient": "P001"
       }
     ],
     "analyses": [
@@ -97,26 +52,6 @@
         ],
         "type": "Laboratory",
         "status": "Pending"
-      },
-      {
-        "date": "2025-03-28",
-        "patient": "P001",
-        "requestedTests": [
-          "Chest X-ray",
-          "ECG"
-        ],
-        "type": "Radiology",
-        "status": "Completed"
-      },
-      {
-        "date": "2025-02-12",
-        "patient": "P001",
-        "requestedTests": [
-          "Blood Sugar Test",
-          "Lipid Profile"
-        ],
-        "type": "Laboratory",
-        "status": "Completed"
       }
     ]
   }
