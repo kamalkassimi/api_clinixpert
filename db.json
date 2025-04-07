@@ -10,7 +10,7 @@
       "password": "password123",  
       "address": "123 Main St, Cityville",
       "dateOfBirth": "1990-05-15",
-      "image": "https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg"
+      "image": "https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg",
       "reasonForConsultation": "General checkup",
       "healthInsurance": "HealthPlus Premium",
       "medicalCertificates": [
@@ -55,7 +55,6 @@
           "status": "Pending"
         }
       ]
-    },
-  
+    }
   ]
 }
