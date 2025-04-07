@@ -1,60 +1,123 @@
-{
-  "patients": [
-    {
-      "id": "P001",
-      "lastName": "Doe",
-      "firstName": "John",
-      "gender": "Male",
-      "telephone": "+1234567890",
-      "email": "john.doe@example.com",
-      "password": "password123",  
-      "address": "123 Main St, Cityville",
-      "dateOfBirth": "1990-05-15",
-      "image": "https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg",
-      "reasonForConsultation": "General checkup",
-      "healthInsurance": "HealthPlus Premium",
-      "medicalCertificates": [
-        {
-          "id": "MC001",
-          "type": "Sick Leave",
-          "date": "2025-04-01",
-          "description": "Medical leave for flu",
-          "recipient": "HR Department"
-        }
-      ],
-      "consultations": [
-        {
-          "id": "C001",
-          "dateTime": "2025-04-02T10:30:00",
-          "patient": "P001",
-          "doctor": "Dr. Smith",
-          "department": "General Medicine",
-          "observations": "Mild fever and fatigue",
-          "price": 75.00,
-          "paymentType": "Credit Card",
-          "status": "Completed"
-        }
-      ],
-      "prescriptions": [
-        {
-          "id": "PR001",
-          "reference": "RX123456",
-          "date": "2025-04-02",
-          "patient": "P001"
-        }
-      ],
-      "analyses": [
-        {
-          "date": "2025-04-02",
-          "patient": "P001",
-          "requestedTests": [
-            "Complete Blood Count",
-            "COVID-19 PCR"
-          ],
-          "type": "Laboratory",
-          "status": "Pending"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "P001",
+    "lastName": "Doe",
+    "firstName": "John",
+    "gender": "Male",
+    "telephone": "+1234567890",
+    "email": "john.doe@example.com",
+    "password": "password123",
+    "address": "123 Main St, Cityville",
+    "dateOfBirth": "1990-05-15",
+    "image": "https://t3.ftcdn.net/jpg/02/00/90/24/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg",
+    "reasonForConsultation": "General checkup",
+    "healthInsurance": "HealthPlus Premium",
+    "medicalCertificates": [
+      {
+        "id": "MC001",
+        "type": "Sick Leave",
+        "date": "2025-04-01",
+        "description": "Medical leave for flu",
+        "recipient": "HR Department"
+      },
+      {
+        "id": "MC002",
+        "type": "Fitness Certificate",
+        "date": "2025-03-20",
+        "description": "Fit to participate in marathon",
+        "recipient": "Sports Committee"
+      },
+      {
+        "id": "MC003",
+        "type": "Sick Leave",
+        "date": "2025-02-10",
+        "description": "Medical leave for surgery recovery",
+        "recipient": "HR Department"
+      },
+      {
+        "id": "MC004",
+        "type": "Medical Clearance",
+        "date": "2025-01-15",
+        "description": "Cleared for international travel",
+        "recipient": "Travel Agency"
+      }
+    ],
+    "consultations": [
+      {
+        "id": "C001",
+        "dateTime": "2025-04-02T10:30:00",
+        "patient": "P001",
+        "doctor": "Dr. Smith",
+        "department": "General Medicine",
+        "observations": "Mild fever and fatigue",
+        "price": 75,
+        "paymentType": "Credit Card",
+        "status": "Completed"
+      }
+    ],
+    "prescriptions": [
+      {
+        "id": "PR001",
+        "reference": "RX123456",
+        "date": "2025-04-02",
+        "patient": "P001"
+      },
+      {
+        "id": "PR002",
+        "reference": "RX123457",
+        "date": "2025-03-25",
+        "patient": "P001"
+      },
+      {
+        "id": "PR003",
+        "reference": "RX123458",
+        "date": "2025-02-15",
+        "patient": "P001"
+      },
+      {
+        "id": "PR004",
+        "reference": "RX123459",
+        "date": "2025-01-10",
+        "patient": "P001"
+      },
+      {
+        "id": "PR005",
+        "reference": "RX123460",
+        "date": "2024-12-05",
+        "patient": "P001"
+      }
+    ],
+    "analyses": [
+      {
+        "date": "2025-04-02",
+        "patient": "P001",
+        "requestedTests": [
+          "Complete Blood Count",
+          "COVID-19 PCR"
+        ],
+        "type": "Laboratory",
+        "status": "Pending"
+      },
+      {
+        "date": "2025-03-28",
+        "patient": "P001",
+        "requestedTests": [
+          "Chest X-ray",
+          "ECG"
+        ],
+        "type": "Radiology",
+        "status": "Completed"
+      },
+      {
+        "date": "2025-02-12",
+        "patient": "P001",
+        "requestedTests": [
+          "Blood Sugar Test",
+          "Lipid Profile"
+        ],
+        "type": "Laboratory",
+        "status": "Completed"
+      }
+    ]
+  }
+]
