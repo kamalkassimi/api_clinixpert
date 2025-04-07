@@ -56,52 +56,6 @@
         }
       ]
     },
-    {
-      "id": "P002",
-      "lastName": "Smith",
-      "firstName": "Emma",
-      "gender": "Female",
-      "telephone": "+1987654321",
-      "email": "emma.smith@example.com",
-      "password": "securepass",  
-      "address": "456 Oak Avenue, Townsville",
-      "dateOfBirth": "1985-09-23",
-      "reasonForConsultation": "Chronic backache",
-       "image": "https://t4.ftcdn.net/jpg/11/93/66/49/360_F_1193664918_RxVuQQyq4p09B7ZuXGbfoXjcHkWEvDxH.jpg"
-      "healthInsurance": "MediCare Plus",
-      "medicalCertificates": [],
-      "consultations": [
-        {
-          "id": "C002",
-          "dateTime": "2025-03-28T14:15:00",
-          "patient": "P002",
-          "doctor": "Dr. Johnson",
-          "department": "Orthopedics",
-          "observations": "Lumbar strain, prescribed physical therapy",
-          "price": 120.00,
-          "paymentType": "Insurance",
-          "status": "Completed"
-        }
-      ],
-      "prescriptions": [
-        {
-          "id": "PR002",
-          "reference": "RX789012",
-          "date": "2025-03-28",
-          "patient": "P002"
-        }
-      ],
-      "analyses": [
-        {
-          "date": "2025-03-28",
-          "patient": "P002",
-          "requestedTests": [
-            "Spine X-Ray"
-          ],
-          "type": "Radiology",
-          "status": "Completed"
-        }
-      ]
-    }
+  
   ]
 }
